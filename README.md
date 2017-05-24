@@ -1,6 +1,6 @@
 
+# KwK User Input Mini App
 
-## User Input Mini App
 Now that we know about gets-ing and puts-ing, let's build a simple input/output app. The main objective is to create an application that _takes in user input, does something with that input, and then prints out an output_.
 
 NOTE: This lab does not have tests, so the `rspec` command won't work. Instead, just write your code and test it out manually by running ruby trip.rb in the command line. If the program does what you want it to, you're good to go and can use `git` to save your work!
@@ -16,14 +16,14 @@ city = "nyc
 ```
 See how the string doesn't end after the letter 'c', but actually jumps to the next line? That's the newline character that gets kept track of because of the user pressing the `enter` key after typing `nyc`. We don't want our string to include that newline character, so we have to add the `chomp` method to `gets` to remove that. So we'll use `gets.chomp`.
 
-### The Challenge: A Visit to NYC
- You're going to build an application to plan a tourist's visit to NYC. You are going to need to create a new Ruby file by entering `touch trip.rb` into your terminal. Open `trip.rb` with your editor to start writing your program.
+### The Challenge: A Visit to YOUR CITY!
+As the Kode with Klossy ambassador for your city, you've been chosen to build a command line program to welcome newcomers and help them plan their trips! You are going to need to create a new Ruby file by entering `touch trip.rb` into your terminal. Open `trip.rb` with your editor to start writing your program.
 
-You'll want to ask the user where they would like to stay, what sites they want to visit, what food they want to eat, and how many nights they want to stay. For each question, you'll take in input from the user and store each piece in a variable. <img src="https://s3.amazonaws.com/after-school-assets/greetings.jpg" align="right" width="300" hspace="20">
+You'll want to ask the user where they would like to stay, what sites they want to visit, what food they want to eat, and how many nights they want to stay (Feel free to ask them even more). For each question, you'll take in input from the user and store each piece in a variable. <img src="https://s3.amazonaws.com/after-school-assets/greetings.jpg" align="right" width="300" hspace="20">
 
 Once you have that input stored, you'll want to use string methods (like upcase, downcase, captialize, etc) to put the input in a proper format. You can always take a look at the Ruby documentation [here](http://www.ruby-doc.org/core-2.1.2/String.html) to learn more about string methods you can use. 
 
-Your final output should use *string interpolation* to output the data in a full summary of their NYC itinerary. 
+Your final output should use *string interpolation* and *string concatenation* to output the data in a full summary of their  itinerary, with suggestions for where they can go and what they should do! 
 
 Remember, you can execute your code by typing `ruby trip.rb` in terminal from inside the directory of this lab.
 
